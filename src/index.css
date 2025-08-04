@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "daisyui" {
+  themes: light, dark;
+  root: ":root";
+  include: ;
+  exclude: ;
+  prefix: ;
+  logs: true;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+@layer base {
+  body {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
